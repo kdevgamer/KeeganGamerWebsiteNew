@@ -1,0 +1,49 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #333;
+  border-bottom: 2px solid #444;
+  border-radius: 10px;
+  > * a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: inherit;
+  }
+  > * > a {
+            padding: 5px 10px;
+            transition: .2s;
+        }
+  > * a:hover {
+            transform: translateY(-2px);
+        }
+}
+
+.nav button {
+  background: transparent;
+  border: 2px solid #aaa;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav button:hover {
+  transform: translateY(-2px);
+  background-color: #555;
+  border-color: #fff;
+}
+
+.nav .socials {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    img {
+        width: 30px;
+        padding: 0 10px;
+    }
+}

@@ -1,0 +1,13 @@
+@import "body.css";
+@import "hero.css";
+@import "nav.css";
+@import "footer.css";
+
+.selected {
+  background-color: #ffffff;
+  color: #2b2b2b;
+  border: 2px solid #ffffff;
+  font-weight: bold;
+  cursor: not-allowed;
+  pointer-events: none;
+}
